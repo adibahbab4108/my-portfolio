@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adib Ahbab</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7a2faf19ef.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- -----------Navigation Section---------- -->
+    <header id="Home">
+        <nav>
+            <h2>Logo</h2>
+            <ul id="nav-ul">
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Service</a></li>
+                <li><a href="#portfolio">portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closeMenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openMenu()"></i>
+
+        </nav>
+        <div class="main">
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, I'm Adib <br> From Bangladesh</h1>
+            </div>
+            <div class="main-img">
+                <img src="resources/images/profile1.png" alt="">
+            </div>
+        </div>
+
+    </header>
+    <!-- -----------About Section---------- -->
+    <div id="about">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="resources/images/cat1.jpg" alt="">
+            </div>
+            <div class="about-col-2">
+                <h1>About Me</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, soluta. Omnis praesentium magni
+                    iusto inventore maxime deleniti eos maiores asperiores consequuntur, sapiente adipisci quas, veniam
+                    aliquid obcaecati reprehenderit porro sequi!</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="openTab('skills')">Skills</p>
+                    <p class="tab-links" onclick="openTab('experience')">Experience</p>
+                    <p class="tab-links" onclick="openTab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+                        <li><span>Web Application</span><br>Web App Development</li>
+                        <li><span>App Development</span><br>Building Android/IOS apps</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Adib</span><br>Designing Web/App Interfaces</li>
+                        <li><span>Web Application</span><br>Web App Development</li>
+                        <li><span>App Development</span><br>Building Android/IOS apps</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>B. Sc</span><br>Computer Science and Engineering</li>
+                        <li><span>H.S.C</span><br>CDA Public School & College</li>
+                        <li><span>S.S.C</span><br>Bakalia High School</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -------------------Services---------------- -->
+    <div id="services">
+        <h1>My Service</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam aliquid autem omnis culpa, minima
+                    repellendus reprehenderit deleniti, repudiandae dolor libero numquam iusto iste, ipsum accusantium
+                    molestias non facilis doloribus sunt.
+                </p>
+                <a href="">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-eye"></i>
+                <h2>UX/UI design</h2>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam aliquid autem omnis culpa, minima
+                    repellendus reprehenderit deleniti, repudiandae dolor libero numquam iusto iste, ipsum accusantium
+                    molestias non facilis doloribus sunt.
+                </p>
+                <a href="">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-mobile"></i>
+                <h2>App Design</h2>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam aliquid autem omnis culpa, minima
+                    repellendus reprehenderit deleniti, repudiandae dolor libero numquam iusto iste, ipsum accusantium
+                    molestias non facilis doloribus sunt.
+                </p>
+                <a href="">Learn more</a>
+            </div>
+        </div>
+    </div>
+    <!-- ---------------Portfolio -------------------- -->
+    <div id="portfolio">
+        <h1>My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="resources/images/cat1.jpg" alt="">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt dicta nostrum illo consequatur
+                        consectetur facere cumque repellat, non illum velit inventore quis suscipit.</p>
+                    <a href=""><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="resources/images/cat1.jpg" alt="">
+                <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt dicta nostrum illo consequatur
+                        consectetur facere cumque repellat, non illum velit inventore quis suscipit.</p>
+                    <a href=""><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="resources/images/cat1.jpg" alt="">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt dicta nostrum illo consequatur
+                        consectetur facere cumque repellat, non illum velit inventore quis suscipit.</p>
+                    <a href=""><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="" class="btn">See More</a>
+    </div>
+    <!-- ----------------contacts-------------------- -->
+    <div id="contact">
+        <div class="row">
+            <div class="contact-left">
+                <h1> Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i> adibalvi476@gmail.com</p>
+                <p> <i class="fas fa-phone-square-alt"></i> 0188**47085</p>
+                <div class="social-icons">
+                    <a href="www.facebook.com"> <i class="fab fa-facebook"></i></a>
+                    <a href=""> <i class="fab fa-twitter"></i></a>
+                    <a href=""> <i class="fab fa-instagram"></i></a>
+                    <a href=""> <i class="fab fa-linkedin"></i></a>
+                </div>
+                <a href="resources/file/Md Adib Ahbab_CV.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" id="" rows="10" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg">Not submitted yet</span>
+            </div>
+        </div>
+    </div>
+    <footer class="copyright">
+        <p>Copyright@ Adib Ahbab</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
